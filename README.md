@@ -31,14 +31,13 @@ The **Library Management System (LMS)** is a simple web-based application built 
 ```bash
 git clone https://github.com/yourusername/library-management-system.git
 cd library-management-system
-```bash
+``` 
 
 -- Example:
 CREATE DATABASE lms;
 USE lms;
 
 -- Run the full db.sql content here
-```bash
 
 
 $host = "localhost";
@@ -46,7 +45,6 @@ $user = "root";
 $pass = "";
 $db   = "lms";
 
-```bash
 
  project config 
 lms/

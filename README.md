@@ -34,19 +34,24 @@ cd library-management-system
 ``` 
 
 -- Example:
+```bash
+
 CREATE DATABASE lms;
 USE lms;
-
+```
 -- Run the full db.sql content here
 
+```bash
 
 $host = "localhost";
 $user = "root";
 $pass = "";
 $db   = "lms";
-
+```
 
  project config 
+ ```bash
+
 lms/
 ├── config.php          # Database connection
 ├── index.php           # Admin login page
